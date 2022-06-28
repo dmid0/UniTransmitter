@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">UniTransmitter</string>
+
+    <string name="menu_nfc">NFC</string>
+    <string name="menu_camera">Камера</string>
+    <string name="menu_file">Файлы</string>
+    <string name="menu_zipfile">Архивация файлов</string>
+    <string name="menu_download">Загрузить файлы</string>
+    <string name="menu_geolocation">Геолокация</string>
+    <string name="menu_setting">Конфигурационный файл</string>
+    <string name="action_save">Сохранить</string>
+</resources>

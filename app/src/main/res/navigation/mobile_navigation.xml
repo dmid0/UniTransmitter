@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/mobile_navigation"
+            app:startDestination="@+id/nav_nfc">
+
+    <fragment
+            android:id="@+id/nav_nfc"
+            android:name="com.example.universaltransmitter2.ui.nfc.NfcFragment"
+            android:label="@string/menu_nfc"
+            tools:layout="@layout/fragment_nfc"/>
+
+    <fragment
+            android:id="@+id/nav_camera"
+            android:name="com.example.universaltransmitter2.ui.camera.CameraFragment"
+            android:label="@string/menu_camera"
+            tools:layout="@layout/fragment_camera"/>
+
+    <fragment
+            android:id="@+id/nav_file"
+            android:name="com.example.universaltransmitter2.ui.file.FilleUpFragment"
+            android:label="@string/menu_file"
+            tools:layout="@layout/fragment_fileup"/>
+
+    <fragment
+            android:id="@+id/nav_zipfile"
+            android:name="com.example.universaltransmitter2.ui.zipfile.ZipFileFragment"
+            android:label="@string/menu_zipfile"
+            tools:layout="@layout/fragment_zipfile"/>
+
+    <fragment
+            android:id="@+id/nav_download"
+            android:name="com.example.universaltransmitter2.ui.download.DownloadFragment"
+            android:label="@string/menu_download"
+            tools:layout="@layout/fragment_download"/>
+
+    <fragment
+            android:id="@+id/nav_geolocation"
+            android:name="com.example.universaltransmitter2.ui.geolocation.GeolocationFragment"
+            android:label="@string/menu_geolocation"
+            tools:layout="@layout/fragment_geolocation"/>
+
+    <fragment
+            android:id="@+id/nav_setting"
+            android:name="com.example.universaltransmitter2.ui.config.ConfigFragment"
+            android:label="@string/menu_setting"
+            tools:layout="@layout/fragment_conf"/>
+</navigation>

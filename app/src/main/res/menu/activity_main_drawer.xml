@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_nfc"
+                android:icon="@drawable/ic_nfc_logo"
+                android:title="@string/menu_nfc"/>
+        <item
+                android:id="@+id/nav_camera"
+                android:icon="@drawable/ic_camera"
+                android:title="@string/menu_camera"/>
+        <item
+                android:id="@+id/nav_file"
+                android:icon="@drawable/ic_file"
+                android:title="@string/menu_file"/>
+        <item
+                android:id="@+id/nav_zipfile"
+                android:icon="@drawable/ic_zipfile"
+                android:title="@string/menu_zipfile"/>
+        <item
+                android:id="@+id/nav_download"
+                android:icon="@drawable/ic_down"
+                android:title="@string/menu_download"/>
+        <item
+                android:id="@+id/nav_geolocation"
+                android:icon="@drawable/ic_geolocation"
+                android:title="@string/menu_geolocation"/>
+    </group>
+    <item android:title="">
+    <menu>
+        <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_setting"
+                android:title="@string/menu_setting"/>
+    </menu>
+    </item>
+</menu>
